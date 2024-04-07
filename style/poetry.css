@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url(../img/Screenshot\ 2024-02-27\ 014726.png);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.poetry {
+    justify-content: center;
+    text-align: center;
+    background: url(../img/paper.png);
+    background-size: cover;
+    background-position: center;
+    filter: brightness(70%);
+    border-radius: 1em;
+    height: 59em;
+    width: 50em;
+    position: relative;
+    top: 1em;
+    border: 3px solid rgb(102, 39, 39);
+}
+
+.poetry h1 {
+    font-size: 1.7em;
+    color: rgb(102, 39, 39);
+    position: relative;
+}
+
+.button-right {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    background-color: #a1937c;
+    top: -35em;
+    left: -8em;
+    border-radius: 1.5em;
+    background: url(../img/icons8-back-81.png);
+    backdrop-filter: blur(10px);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.button-right:hover {
+    width: 90px;
+    height: 90px; 
+}
